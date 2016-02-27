@@ -28,6 +28,8 @@ Spree.config do |config|
 
   # Custom logo for the frontend
   config.logo = "logo/klaremont-logo.bmp"
+  #and backend...
+  config.admin_interface_logo = "logo/klaremont-logo.bmp"
 
   # Template to use when rendering layout
   # config.layout = "spree/layouts/spree_application"
