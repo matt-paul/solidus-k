@@ -1,5 +1,10 @@
 source 'https://rubygems.org'
 
+#Import of csv products list
+#https://github.com/autotelik/datashift_spree
+gem 'datashift'
+gem 'datashift_spree'
+
 gem 'solidus'
 gem 'solidus_auth_devise'
 
