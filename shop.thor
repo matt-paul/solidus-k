@@ -1,5 +1,4 @@
-require 'datashift'
-require 'datashift_spree'
-
-DataShift::load_commands
+require 'datashift_solidus'
+#
+# DataShift::load_commands
 DataShift::SpreeEcom::load_commands

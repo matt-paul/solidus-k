@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 #Import of csv products list
 #https://github.com/autotelik/datashift_spree
 gem 'datashift'
-gem 'datashift_spree'
+gem 'datashift_solidus', git: "https://github.com/matt-paul/datashift_solidus", branch: "master"
 
 gem 'solidus'
 gem 'solidus_auth_devise'
